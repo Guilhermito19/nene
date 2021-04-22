@@ -6,4 +6,4 @@ const produtoSchema = mongoose.Schema({
     preco: Number
 });
 
-module.exports = mongoose.model('Produto', produtoSchema);
+module.exports = mongoose.model('produtos', produtoSchema);
